@@ -8,6 +8,10 @@ import time
 files = []
 secondCall = True
 
+vidFile = input("Video Path = ")
+FPS = input("Video FPS = ")
+
+
 if os.path.exists('output'):
     shutil.rmtree('output')
     shutil.rmtree('output_2')
@@ -16,7 +20,7 @@ os.mkdir('output')
 os.mkdir('output_2')
 os.mkdir('output_3')
 
-os.system('ffmpeg -i input.mp4 -start_number 000 -to 00:01:30 -f image2 "output/output_%06d.bmp"')
+os.system('ffmpeg -i '+vidFile+' -f image2 "output/output_%06d.bmp"')
 #
 # FIRST CALL
 #
@@ -84,5 +88,6 @@ time.sleep(2)
 #for i,f in enumerate(sorted(os.listdir(s)),highest_index):
 #    new_name = "output_{:06}.bmp".format(i)
 #    shutil.copy(os.path.join(s,f),os.path.join(d,new_name))
+os.system('rename.py')
 
-os.system('ffmpeg -i "output/output_%06d.bmp" video.mp4')
+os.system('ffmpeg -i "output_2/output_%03d.bmp" -r '+FPS+' video.mp4')
