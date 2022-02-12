@@ -9,5 +9,5 @@
 
 # requirements
 
-* python (Extra module to install: Imageio and Imageio-ffmpeg)
+* python (Extra modules to install: Imageio and Imageio-ffmpeg)
 * [ffmpeg](https://ffmpeg.org/download.html)
