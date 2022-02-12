@@ -1,6 +1,6 @@
 # E3F (Every 3rd Frame/Smash Net Code) 
 ### E3F is a script that changes the frame order of said video.
-#### Forked from Merubokkusu
+#### Forked from [Merubokkusu](https://github.com/Merubokkusu)
 <br> Just run E3F.py to use the it!
 * Examples
 
