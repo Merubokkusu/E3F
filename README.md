@@ -9,7 +9,6 @@
 
 # requirements
 
-* python (Extra modules to install: Imageio and Imageio-ffmpeg)
-* [ffmpeg](https://ffmpeg.org/download.html)
+* python (Extra modules to install: **Imageio and Imageio-ffmpeg**)
 
 #### Forked from [Merubokkusu/E3F](https://github.com/Merubokkusu/E3F) and added my changes.
