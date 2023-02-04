@@ -1,6 +1,6 @@
 # E3F (Every 3rd Frame) 
 ### E3F is a script that changes the frame order of a video. It can be used to prepare a video for glitching purposes.
-<br> Just run E3F.py to use it!
+<br> Just run `E3F.py` to use it!
 
 * Examples
 
